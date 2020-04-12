@@ -1,1 +1,1 @@
-pipenv install --three --python=`which python3` python-telegram-bot flask gunicorn requests gspread oauth2client
+pipenv install --three --python=`which python3` python-telegram-bot flask gunicorn requests gspread oauth2client google-api-python-client google-auth-httplib2 google-auth-oauthlib

@@ -5,7 +5,7 @@
 ### Create python environment
 
 ``` bash
-pipenv install --three --python=`which python3` python-telegram-bot flask gunicorn requests gspread oauth2client
+pipenv install --three --python=`which python3` python-telegram-bot flask gunicorn requests gspread oauth2client google-api-python-client google-auth-httplib2 google-auth-oauthlib
 ```
 
 ## Environment
@@ -28,4 +28,16 @@ So we can add the lines to ~/.bashrc
 if [ -d "$HOME/.local/bin" ] ; then
     PATH="$HOME/.local/bin:$PATH"
 fi
+```
+
+To access WSL Linux Files from Windows 10, do the following. (That just copy linux data to windows)
+
+``` bash
+explorer.exe .
+```
+
+If we want to copy windows file to linux,
+
+``` bash
+cp /mnt/{disk} {directory}
 ```
