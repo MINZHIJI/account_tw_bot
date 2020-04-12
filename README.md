@@ -5,7 +5,7 @@
 ### Create python environment
 
 ``` bash
-pipenv install --three --python=`which python3` python-telegram-bot flask gunicorn requests
+pipenv install --three --python=`which python3` python-telegram-bot flask gunicorn requests gspread oauth2client
 ```
 
 ## Environment
